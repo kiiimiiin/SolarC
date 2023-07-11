@@ -7,6 +7,9 @@ android {
     namespace 'com.min.android.solartv'
     compileSdk 33
 
+    viewBinding {
+        enabled = true
+    }
     defaultConfig {
         applicationId "com.min.android.solartv"
         minSdk 24
